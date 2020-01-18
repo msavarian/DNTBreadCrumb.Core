@@ -3,7 +3,7 @@ DNTBreadCrumb.Core
 
 <p align="left">
   <a href="https://github.com/VahidN/DNTBreadCrumb.Core">
-     <img alt="GitHub Actions status" src="https://github.com/VahidN/DNTBreadCrumb.Core/workflows/.NET%20Core%20Build/badge.svg">
+     <img alt="GitHub Actions status" src="https://github.com/msavarian/DNTBreadCrumb.Core/workflows/.NET%20Core%20Build/badge.svg">
   </a>
 </p>
 
@@ -35,9 +35,11 @@ Usage:
  <breadcrumb asp-homepage-title="Home"
              asp-homepage-url="@Url.Action("Index", "Home", values: new { area = "" })"
              asp-bootstrap-version="V3"
-             ##asp-bootstrap-extra-css-classes="ExtraClass1 ExtraClass2"
+             asp-bootstrap-extra-css-classes="ExtraClass1 ExtraClass2"
              asp-homepage-glyphicon="glyphicon glyphicon-home"></breadcrumb>
 ```
+ #New Property :
+  ##asp-bootstrap-extra-css-classes="ExtraClass1 ExtraClass2"
 
 
 - Now you can add the `BreadCrumb` attributes to your controller or action methods:
