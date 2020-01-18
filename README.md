@@ -35,6 +35,7 @@ Usage:
  <breadcrumb asp-homepage-title="Home"
              asp-homepage-url="@Url.Action("Index", "Home", values: new { area = "" })"
              asp-bootstrap-version="V3"
+             ##asp-bootstrap-extra-css-classes="ExtraClass1 ExtraClass2"
              asp-homepage-glyphicon="glyphicon glyphicon-home"></breadcrumb>
 ```
 
