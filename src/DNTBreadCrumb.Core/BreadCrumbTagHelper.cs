@@ -42,6 +42,14 @@ namespace DNTBreadCrumb.Core
         public BootstrapVersion BootstrapVersion { get; set; } = BootstrapVersion.V3;
 
         /// <summary>
+        /// Set same extra classes, indicate them with an space
+        /// </summary>
+        [HtmlAttributeName("asp-bootstrap-extra-css-classes")]
+        public string ExtraCssClasses { get; set; } = "";
+
+
+
+        /// <summary>
         ///
         /// </summary>
         protected HttpRequest Request => ViewContext.HttpContext.Request;
@@ -82,7 +90,7 @@ namespace DNTBreadCrumb.Core
 
             output.TagName = "ol";
             output.TagMode = TagMode.StartTagAndEndTag;
-            output.Attributes.Add("class", "breadcrumb");
+            output.Attributes.Add("class", "breadcrumb" + " " + ExtraCssClasses);
 
             if (isCurrentPageHomeUrl)
             {
