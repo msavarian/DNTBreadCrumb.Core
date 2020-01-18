@@ -40,7 +40,9 @@ Usage:
 ```
 New Property :
 -----------------
-##asp-bootstrap-extra-css-classes="ExtraClass1 ExtraClass2"
+## asp-bootstrap-extra-css-classes="ExtraClass1 ExtraClass2"
+
+
 
 
 - Now you can add the `BreadCrumb` attributes to your controller or action methods:
