@@ -38,8 +38,9 @@ Usage:
              asp-bootstrap-extra-css-classes="ExtraClass1 ExtraClass2"
              asp-homepage-glyphicon="glyphicon glyphicon-home"></breadcrumb>
 ```
- #New Property :
-  ##asp-bootstrap-extra-css-classes="ExtraClass1 ExtraClass2"
+New Property :
+-----------------
+##asp-bootstrap-extra-css-classes="ExtraClass1 ExtraClass2"
 
 
 - Now you can add the `BreadCrumb` attributes to your controller or action methods:
