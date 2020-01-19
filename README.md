@@ -7,7 +7,11 @@ Micro.DNTBreadCrumb.Core
   </a>
 </p>
 
-## This is a fork from DNTBreadCrumb.Core with a new property for adding css class to the bredcrump.
+
+## This is a fork from DNTBreadCrumb.Core with a new property for adding css class to the bredcrumb.
+```
+asp-bootstrap-extra-css-classes="ExtraClass1 ExtraClass2"
+```
 
 `DNTBreadCrumb.Core` Creates custom bread crumb definitions, based on Twitter Bootstrap 3.x and 4.x features for ASP.NET Core applications.
 
@@ -40,11 +44,6 @@ Usage:
              asp-bootstrap-extra-css-classes="ExtraClass1 ExtraClass2"
              asp-homepage-glyphicon="glyphicon glyphicon-home"></breadcrumb>
 ```
-New Property :
------------------
-## asp-bootstrap-extra-css-classes="ExtraClass1 ExtraClass2"
-
-
 
 
 - Now you can add the `BreadCrumb` attributes to your controller or action methods:
