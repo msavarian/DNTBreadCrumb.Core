@@ -1,8 +1,8 @@
-DNTBreadCrumb.Core
+Micro.DNTBreadCrumb.Core
 =======
 
 <p align="left">
-  <a href="https://github.com/VahidN/DNTBreadCrumb.Core">
+  <a href="https://github.com/msavarian/DNTBreadCrumb.Core">
      <img alt="GitHub Actions status" src="https://github.com/msavarian/DNTBreadCrumb.Core/workflows/.NET%20Core%20Build/badge.svg">
   </a>
 </p>
@@ -13,13 +13,13 @@ DNTBreadCrumb.Core
 
 Install via NuGet
 -----------------
-To install DNTBreadCrumb.Core, run the following command in the Package Manager Console:
+To install Micro.DNTBreadCrumb.Core, run the following command in the Package Manager Console:
 
 ```
-PM> Install-Package DNTBreadCrumb.Core
+PM> Install-Package Micro.DNTBreadCrumb.Core
 ```
 
-You can also view the [package page](http://www.nuget.org/packages/DNTBreadCrumb.Core/) on NuGet.
+You can also view the [package page](http://www.nuget.org/packages/Micro.DNTBreadCrumb.Core/) on NuGet.
 
 
 
