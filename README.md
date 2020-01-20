@@ -1,31 +1,37 @@
-DNTBreadCrumb.Core
+Microlib.BreadCrumb.Core
 =======
 
 <p align="left">
-  <a href="https://github.com/VahidN/DNTBreadCrumb.Core">
-     <img alt="GitHub Actions status" src="https://github.com/VahidN/DNTBreadCrumb.Core/workflows/.NET%20Core%20Build/badge.svg">
+  <a href="https://github.com/msavarian/DNTBreadCrumb.Core">
+     <img alt="GitHub Actions status" src="https://github.com/msavarian/DNTBreadCrumb.Core/workflows/.NET%20Core%20Build/badge.svg">
   </a>
 </p>
 
-`DNTBreadCrumb.Core` Creates custom bread crumb definitions, based on Twitter Bootstrap 3.x and 4.x features for ASP.NET Core applications.
+
+## This is a fork from DNTBreadCrumb.Core with a new property for adding css class to the bredcrumb.
+```
+asp-bootstrap-extra-css-classes="ExtraClass1 ExtraClass2"
+```
+
+`Microlib.BreadCrumb.Core` Creates custom bread crumb definitions, based on Twitter Bootstrap 3.x and 4.x features for ASP.NET Core applications.
 
 
 
 Install via NuGet
 -----------------
-To install DNTBreadCrumb.Core, run the following command in the Package Manager Console:
+To install Microlib.BreadCrumb.Core, run the following command in the Package Manager Console:
 
 ```
-PM> Install-Package DNTBreadCrumb.Core
+PM> Install-Package Microlib.BreadCrumb.Core
 ```
 
-You can also view the [package page](http://www.nuget.org/packages/DNTBreadCrumb.Core/) on NuGet.
+You can also view the [package page](http://www.nuget.org/packages/Microlib.BreadCrumb.Core/) on NuGet.
 
 
 
 Usage:
 -----------------
-- After installing the DNTBreadCrumb.Core package, add the following definition to the [_ViewImports.cshtml](/src/DNTBreadCrumb.Core.TestWebApp/Views/_ViewImports.cshtml) file:
+- After installing the Microlib.BreadCrumb.Core package, add the following definition to the [_ViewImports.cshtml](/src/DNTBreadCrumb.Core.TestWebApp/Views/_ViewImports.cshtml) file:
 ```csharp
 @addTagHelper *, DNTBreadCrumb.Core
 ```
@@ -35,6 +41,7 @@ Usage:
  <breadcrumb asp-homepage-title="Home"
              asp-homepage-url="@Url.Action("Index", "Home", values: new { area = "" })"
              asp-bootstrap-version="V3"
+             asp-bootstrap-extra-css-classes="ExtraClass1 ExtraClass2"
              asp-homepage-glyphicon="glyphicon glyphicon-home"></breadcrumb>
 ```
 

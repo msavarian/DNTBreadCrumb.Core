@@ -1,29 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Description>DNTBreadCrumb.Core Creates custom bread crumb definitions, based on Twitter Bootstrap 3.x and 4.x features.
----------------------------------------------------------------
-I Add some features to Mr Nasiri Bredcrump Package
-main repo 
---- https://github.com/VahidN/DNTBreadCrumb.Core
-forked repo
---- https://github.com/msavarian/DNTBreadCrumb.Core</Description>
+    <Description>Microlib.BreadCrumb.Core Creates custom bread crumb definitions, based on Twitter Bootstrap 3.x and 4.x features.</Description>
     <VersionPrefix>1.9.1</VersionPrefix>
     <Authors>Mahmoud Savarian</Authors>
     <TargetFrameworks>netcoreapp3.0;netstandard1.6;netstandard2.0</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <AssemblyName>DNTBreadCrumb.Core</AssemblyName>
-    <PackageId>Micro.DNTBreadCrumb.Core</PackageId>
+    <AssemblyName>Microlib.BreadCrumb.Core</AssemblyName>
+    <PackageId>Microlib.BreadCrumb.Core</PackageId>
     <PackageTags>MVC;breadcrumb;bread;crumb;Twitter;Bootstrap;.NET Core;aspnetcore</PackageTags>
-    <PackageProjectUrl>https://github.com/msavarian/DNTBreadCrumb.Core</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/msavarian/microlib-breadcrumb-core</PackageProjectUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <PackageTargetFallback Condition=" '$(TargetFramework)' == 'netstandard1.6' ">$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
     <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.6' ">1.6.1</NetStandardImplicitPackageVersion>
-    <Version>1.9.1.2</Version>
+    <Version>1.9.1.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <RootNamespace>Microlib.BreadCrumb.Core</RootNamespace>
   </PropertyGroup>
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.6' ">
     <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="1.1.2" />
