@@ -8,7 +8,8 @@ Microlib.BreadCrumb.Core
 </p>
 
 
-### This is a fork from [DNTBreadCrumb.Core](https://github.com/VahidN/DNTBreadCrumb.Core) with a new property for adding css class to the bredcrumb.
+> This is a fork from [DNTBreadCrumb.Core](https://github.com/VahidN/DNTBreadCrumb.Core) 
+> I tried to add a new property for adding css class to the bredcrumb.
 ```
 asp-bootstrap-extra-css-classes="ExtraClass1 ExtraClass2"
 ```
